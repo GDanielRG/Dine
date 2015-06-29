@@ -8,6 +8,6 @@ class NotificationTranslation extends Model
 {
     protected $fillable = [
     	'title',
-    	'message',
+    	'message'
     ];
 }

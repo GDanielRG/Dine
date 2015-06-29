@@ -29,7 +29,7 @@ class Notification extends Model
 		'updated_at'
 	];
 
-	protected $table = 'notifications'
+	protected $table = 'notifications';
 
 	public function location()
 	{

@@ -25,7 +25,7 @@ class Category extends Model
 		'updated_at'
 	];
 
-	protected $table = 'categories'
+	protected $table = 'categories';
 
 	public function location()
 	{

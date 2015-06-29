@@ -16,7 +16,7 @@ class Option extends Model
 		'updated_at'
 	];
 
-	protected $table = 'options'
+	protected $table = 'options';
 
 	public function location()
 	{

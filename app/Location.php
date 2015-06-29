@@ -16,7 +16,7 @@ class Location extends Model
 		'updated_at'
 	];
 
-	protected $table = 'locations'
+	protected $table = 'locations';
 
 	public function locale()
 	{
