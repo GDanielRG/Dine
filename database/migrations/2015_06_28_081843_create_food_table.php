@@ -32,6 +32,7 @@ class CreateFoodTable extends Migration
             $table->string('name');
             $table->string('description');
             $table->string('locale')->index();
+            $table->timestamps();
 
             $table->unique(['food_id','locale']);
             $table->foreign('food_id')->references('id')->on('food')->onDelete('cascade');

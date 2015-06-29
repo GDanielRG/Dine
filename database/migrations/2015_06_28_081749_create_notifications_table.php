@@ -31,6 +31,7 @@ class CreateNotificationsTable extends Migration
             $table->string('title');
             $table->string('message');
             $table->string('locale')->index();
+            $table->timestamps();
 
             $table->unique(['notification_id','locale']);
             $table->foreign('notification_id')->references('id')->on('notifications')->onDelete('cascade');
